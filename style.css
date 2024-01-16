@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.header{
+    min-height: 655px;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(Images/policehead2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+ 
+}
+#he{
+    font-size: 16px;
+    color: #fff;
+    padding: 1px;
+    margin: 2px;
+    margin-top: 0px;
+    justify-content: space-between;
+}
+#hi1{
+    
+    font-size: 16px;
+    color: #fff;
+    padding: 1px;
+    margin: 2px;
+    margin-top: 0px;
+    float: right;
+    
+}
+#hi1 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 80px;
+}
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 70px;
+}
+.nav-links ul li a{
+    color: aliceblue;
+    text-decoration: none; 
+}
+
+.header h1{
+    color: #fff;
+    font-size: 50px;
+}
+/*........................ Section 2...........................*/
+.main{
+    height: 744px;
+    width: 100%;
+}
+
+#leftmain{
+    height: 544px;
+    width: 23%;
+    margin-top: 50px;
+    float: left;
+}
+#leftmain h1{
+    padding: 10px;
+    padding-top: 15%;
+    font-size: 40px;
+}
+#middlemain{
+    padding: 5px;
+    height: 544px;
+    width: 25%;
+    float: left;
+
+}
+#middlemain  img{
+    width: 100%;
+    height: 35%;
+}
+
+#middlemain p{
+    padding: 10px;
+    padding-top: 15px;
+}
+
+
+
+#middlemains{
+    height: 544px;
+    width: 25%;
+    float: left;
+  
+}
+#middlemains img{
+    width: 100%;
+    height: 35%;
+}
+#middlemains p{
+    padding: 10px;
+    padding-top: 15px;
+}
+
+
+
+#rightmain{
+    height: 544px;
+    width: 25%;
+    float:left;
+}
+#rightmain img{
+    padding: 5px;;
+    width: 100%;
+    height: 35%;
+}
+#rightmain p{
+    padding: 10px;
+    padding-top: 15px;
+}
+
+
+/*.....................footer.....................................*/
+
+#footer{
+    padding-top:10px;
+    float: left;
+    width: 100%;
+    height: 390px;
+    background: rgb(32, 29, 29);
+    color: #fff;
+    text-align: center;
+
+}
+#footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+#icons img {
+    padding: 20px;
+    padding-bottom: 20px;
+   
+}
+.lastp{
+    padding: 10px;
+    float: left;
+}
+#myname{
+    padding: 10px;
+    float:right;
+}
